@@ -39,7 +39,6 @@ class Stack:
             f"Topo: {self.peek() if not self.is_empty() else 'Pilha vazia'}."
         )
 
-
 stack = Stack(max_size=5)
 try:
     stack.push(1)
